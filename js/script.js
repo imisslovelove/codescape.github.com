@@ -55,4 +55,8 @@ $(document).ready(function() {
     }
   }
 
+  if ($('#tweets').length) {
+    twitterFetcher.fetch('369211608574066689', 'tweets', 5, true);
+  }
+
 });
